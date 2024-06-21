@@ -1,0 +1,5 @@
+# requirements.txt
+Django>=3.2,<4.0
+gunicorn  # Add gunicorn to handle WSGI
+whitenoise  # Add whitenoise for serving static files
+# Add other dependencies...

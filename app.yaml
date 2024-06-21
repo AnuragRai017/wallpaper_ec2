@@ -1,0 +1,9 @@
+runtime: python39  # Or another compatible version
+entrypoint: gunicorn -b :$PORT wallpaper_project.wsgi
+
+handlers:
+- url: /static
+  static_dir: static/
+
+- url: /.*
+  script: auto

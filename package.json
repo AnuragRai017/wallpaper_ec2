@@ -1,0 +1,12 @@
+{
+  "name": "image_gallery",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "postcss static/css/styles.css -o static/css/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.0",
+    "postcss-cli": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  }
+}
